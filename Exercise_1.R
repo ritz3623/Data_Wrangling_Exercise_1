@@ -4,7 +4,6 @@
 org_df <- read.csv("refine_original.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 
 #TASK 1: Clean up brand names
-#Convert inot lower case
 org_df$company <- tolower(org_df$company)
 
 #Correct the mispelling of companies name
